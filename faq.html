@@ -1,0 +1,109 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>F.A.Q</title>
+    </head>
+
+    <body>
+        <div class="navbar-fixed">
+            <nav class="blue darken-4">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo ">App name</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li>
+                                <a href="index.html" >Home</a>
+                            </li>  
+                            <li>
+                                <a href="#faq" >FAQ</a>
+                            </li>           
+                        </ul>
+  
+                    </div>
+                </div>
+            </nav>
+        </div>
+           <!--sidenav-->
+      <ul class="sidenav" id="mobile-nav">
+          <li>
+              <a href="index.html" class="center z-depth-4 blue-text text-darken-4 ">Home</a>
+          </li>
+          <li>
+              <a href="faq.html" class="z-depth-4 blue-text text-darken-4 center">FAQ</a>
+          </li>
+             
+      </ul>
+      <br>
+
+
+
+     <!-- collapsible-->
+      <section class="container ">
+          <h4 class="center"> <span class="blue-text text-darken-4"
+            >F.A.Q</span>   </h4>
+            <br>
+             
+                <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header"> > What is Workopolo?</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi suscipit tempora maiores tempore quo minima, vel expedita saepe itaque ad qui</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                      </li>
+                      <li>
+                          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                          </li>
+                  </ul>
+          </section>
+          <br>
+          <br>
+          
+          <!--footer-->
+     <footer class="section blue darken-4 white-text center">
+        <p class="flow-text">App name &copy; 2019</p>
+      </footer>
+      
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+      </script>
+      <script>
+         //Side-nav
+    const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init(sideNav,{});
+
+   // collapsible
+      const collaPsible =document.querySelectorAll('.collapsible');
+      M.Collapsible.init(collaPsible,{});
+
+      </script>
+        </body>
+  </html>
+        
